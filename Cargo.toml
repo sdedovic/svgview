@@ -6,7 +6,10 @@ authors = ["stevan <stevan@dedovic.com>"]
 readme = "README.md"
 homepage = "https://github.com/sdedovic/svgview"
 repository = "https://github.com/sdedovic/svgview"
-license = ""
+license = "Apache-2.0"
+license-file = "LICENSE"
+keywords = ["cli", "svg", "gui", "graphical", "minimal"]
+categories = ["visualization", "rendering", "multimedia", "gui", "development-tools"]
 edition = "2021"
 
 [[bin]]
