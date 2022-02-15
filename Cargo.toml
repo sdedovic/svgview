@@ -1,0 +1,35 @@
+[package]
+name = "svgview"
+description = "A minimal, reloading SVG viewer a la feh."
+version = "0.1.0"
+authors = ["stevan <stevan@dedovic.com>"]
+readme = "README.md"
+homepage = "https://github.com/sdedovic/svgview"
+repository = "https://github.com/sdedovic/svgview"
+license = ""
+edition = "2021"
+
+[[bin]]
+name = "svgview"
+path = "src/main.rs"
+
+[features]
+optimize = ["log/release_max_level_warn"]
+default = ["optimize"]
+
+[dependencies]
+# display
+pixels = "0.9.0"
+winit = "0.26"
+winit_input_helper = "0.11"
+
+# SVG rendering
+resvg = "0.20.0"
+usvg = "0.20.0"
+tiny-skia = "0.6.3"
+
+# infrastructure
+anyhow = "1.0.53"
+log = "0.4.14"
+pretty_env_logger = "0.4.0"
+notify = "4.0.0"
