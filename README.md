@@ -1,4 +1,6 @@
 # svgview
+![crates.io](https://img.shields.io/crates/v/svgview.svg) 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/sdedovic/svgview?color=green&style=plastic)
 
 ## Usage
 ```bash
